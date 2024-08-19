@@ -10,6 +10,8 @@ const projects = [
     source: [{ title: null, url: 'https://github.com/wws0120/petadoptapp' }],
     description:
       'A comprehensive pet adoption application featuring user registration, pet listings, and adoption requests. The Express.js backend with Prisma ORM ensures efficient data handling with MongoDB. The React frontend, powered by Redux, offers an intuitive interface styled with Tailwind CSS. Includes an admin dashboard for managing users, pets, and content, including data visualization for key metrics.',
+    notes:
+      'Due to limitations of Render.com free plan, initial loading time may be longer than usual.',
     tags: ['Express.js', 'Prisma', 'MongoDB', 'React', 'Redux', 'Tailwind CSS'],
     gallery: [
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1711095255/image001_d4t4wd.webp',
@@ -36,6 +38,7 @@ const projects = [
     ],
     description:
       'A landing page built with Next.js and enhanced with Framer Motion for animations.',
+    notes: null,
     tags: ['Next.js', 'Framer Motion'],
     gallery: [
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1717058974/img001_ywhtg5.webp',
@@ -62,6 +65,7 @@ const projects = [
     ],
     description:
       'Developed a webpage showcasing page transitions using Next.js and Framer Motion.',
+    notes: null,
     tags: ['Next.js', 'Framer Motion'],
     gallery: [
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1723617804/pic005_lz8nmy.webp',
@@ -88,6 +92,7 @@ const projects = [
     ],
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    notes: null,
     tags: ['Next.js', 'NestJS', 'Puppeteer'],
     gallery: [
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1723699049/NESTJS_NEWS_FEED_APP_lnfuq0.webp',
@@ -111,6 +116,7 @@ const projects = [
     ],
     description:
       'A modern landing page built with Svelte and styled using Tailwind CSS.',
+    notes: null,
     tags: ['Svelte', 'Tailwind CSS'],
     gallery: [
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1723720863/6_ljlxwu.webp',
@@ -132,6 +138,7 @@ const projects = [
     ],
     description:
       'A landing page developed with Astro, featuring modern design implemented with Tailwind CSS.',
+    notes: null,
     tags: ['Astro', 'Tailwind CSS'],
     gallery: [
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1723720865/7_gspls1.webp',

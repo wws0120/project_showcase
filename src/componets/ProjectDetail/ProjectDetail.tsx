@@ -11,7 +11,8 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({
   project,
   closeModal,
 }) => {
-  const { id, title, coverImage, description, tags, gallery } = project ?? {};
+  const { id, title, coverImage, description, notes, tags, gallery } =
+    project ?? {};
 
   return (
     <article className="rounded-lg bg-black relative">
@@ -43,7 +44,11 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({
                 {description}
               </div>
             )}
-
+            {notes && (
+              <div className="mt-3 text-sm leading-7 text-body md:mt-4">
+                {notes}
+              </div>
+            )}
             <div className="mt-12 flex flex-col items-center md:mt-6 lg:flex-row">
               <div className="mb-4 w-full text-amber-500 lg:mb-0 lg:max-w-[400px]">
                 Demo Link:
