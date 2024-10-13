@@ -148,7 +148,7 @@ const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: 'LangChain Chatbot',
     coverImage:
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1728819597/pic002_ecimlu.webp',
@@ -158,8 +158,7 @@ const projects = [
     source: [
       { title: null, url: 'https://github.com/wws0120/langchain_chatbot_demo' },
     ],
-    description:
-      'A landing page developed with Astro, featuring modern design implemented with Tailwind CSS.',
+    description: 'Showcase of a demo chatbot implemented using LangChain',
     notes: null,
     tags: ['Next.js', 'LangChain'],
     gallery: [
