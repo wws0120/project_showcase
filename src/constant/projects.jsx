@@ -147,6 +147,25 @@ const projects = [
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1723720864/2024-08-15_155335_hgk31a.webp',
     ],
   },
+  {
+    id: 6,
+    title: 'LangChain Chatbot',
+    coverImage:
+      'https://res.cloudinary.com/dzqvyqldd/image/upload/v1728819597/pic002_ecimlu.webp',
+    previewUrl:
+      'https://res.cloudinary.com/dzqvyqldd/image/upload/v1728819684/pic001_qlgc8j.webp',
+    demoUrl: 'https://langchain-chatbot-demo-lilac.vercel.app/',
+    source: [
+      { title: null, url: 'https://github.com/wws0120/langchain_chatbot_demo' },
+    ],
+    description:
+      'A landing page developed with Astro, featuring modern design implemented with Tailwind CSS.',
+    notes: null,
+    tags: ['Next.js', 'LangChain'],
+    gallery: [
+      'https://res.cloudinary.com/dzqvyqldd/image/upload/v1728819684/pic001_qlgc8j.webp',
+    ],
+  },
 ];
 
 export default projects;
