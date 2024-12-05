@@ -49,7 +49,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: 'Next.js Landing Page with GSAP Scroll Animation',
     coverImage:
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1733386129/gymproject/project_Thumbnail_iksyn4.webp',
