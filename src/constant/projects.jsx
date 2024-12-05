@@ -58,7 +58,7 @@ const projects = [
     demoUrl: 'https://gym-landing-drab.vercel.app/',
     source: [{ title: null, url: 'https://github.com/wws0120/gym_landing' }],
     description:
-      'A fully responsive designlanding page built with Next.js and enhanced with GSAP for animations.',
+      'A fully responsive design landing page built with Next.js and enhanced with GSAP for animations.',
     notes: null,
     tags: ['Next.js', 'GSAP'],
     gallery: [
