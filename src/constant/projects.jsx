@@ -48,9 +48,29 @@ const projects = [
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1717058974/img004_nv6jqc.webp',
     ],
   },
-
   {
-    id: 3,
+    id: 2,
+    title: 'Next.js Landing Page with GSAP Scroll Animation',
+    coverImage:
+      'https://res.cloudinary.com/dzqvyqldd/image/upload/v1733386129/gymproject/project_Thumbnail_iksyn4.webp',
+    previewUrl:
+      'https://res.cloudinary.com/dzqvyqldd/image/upload/v1733386117/gymproject/001_qgeblf.webp',
+    demoUrl: 'https://gym-landing-drab.vercel.app/',
+    source: [{ title: null, url: 'https://github.com/wws0120/gym_landing' }],
+    description:
+      'A fully responsive designlanding page built with Next.js and enhanced with GSAP for animations.',
+    notes: null,
+    tags: ['Next.js', 'GSAP'],
+    gallery: [
+      'https://res.cloudinary.com/dzqvyqldd/image/upload/v1733386116/gymproject/26_flihij.webp',
+      'https://res.cloudinary.com/dzqvyqldd/image/upload/v1733386116/gymproject/27_vr1wyt.webp',
+      'https://res.cloudinary.com/dzqvyqldd/image/upload/v1733386117/gymproject/28_hopcqs.webp',
+      'https://res.cloudinary.com/dzqvyqldd/image/upload/v1733386117/gymproject/29_hoken2.webp',
+      'https://res.cloudinary.com/dzqvyqldd/image/upload/v1733386116/gymproject/30_bbfz42.webp',
+    ],
+  },
+  {
+    id: 4,
     title: 'Next.js Page Transition Animation',
     coverImage:
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1723617804/pic005_lz8nmy.webp',
@@ -73,7 +93,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: 'NextJS News Feeding App with Web Scraper',
     coverImage:
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1723699049/NESTJS_NEWS_FEED_APP_lnfuq0.webp',
@@ -101,7 +121,7 @@ const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: 'Svelte Landing Page',
     coverImage:
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1723460247/pic003_gvr0cu.webp',
@@ -126,7 +146,7 @@ const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: 'Astro Landing Page',
     coverImage:
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1723460247/pic004_e0d9n1.webp',
@@ -148,7 +168,7 @@ const projects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: 'LangChain Chatbot',
     coverImage:
       'https://res.cloudinary.com/dzqvyqldd/image/upload/v1728819597/pic002_ecimlu.webp',
